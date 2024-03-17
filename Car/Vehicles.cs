@@ -1,4 +1,4 @@
-class Vehicles
+abstract class Vehicles
 {
     protected int Id { get; set; }
     protected string Model { get; set; } = string.Empty;
