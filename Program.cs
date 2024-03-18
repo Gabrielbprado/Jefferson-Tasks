@@ -6,5 +6,6 @@ class Program
     {
         Car car = new Car();
         AirPlane airplane = new AirPlane();
+        Console.WriteLine("Hello");
     }
 }
