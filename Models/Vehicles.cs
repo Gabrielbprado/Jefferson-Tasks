@@ -1,9 +1,9 @@
 abstract class Vehicles
 {
-    protected int Id { get; set; }
-    protected string Model { get; set; } = string.Empty;
-    protected int Capacity { get; set; }
-    protected string Color { get; set; } = string.Empty;
-    protected string Brand { get; set; } = string.Empty;
-    protected DateTime Yeaer { get; set; }
+    public int Id { get; set; }
+    public string Model { get; set; } = string.Empty;
+    public int Capacity { get; set; }
+    public string Color { get; set; } = string.Empty;
+    public string Brand { get; set; } = string.Empty;
+    public DateTime Yeaer { get; set; }
 }
